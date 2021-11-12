@@ -1,5 +1,5 @@
-import React from "react";
-import { NotesAppBar } from "./NotesAppBar";
+import React from 'react';
+import { NotesAppBar } from './NotesAppBar';
 
 export const NoteScreen = () => {
     return (
@@ -17,8 +17,7 @@ export const NoteScreen = () => {
                 <textarea
                     placeholder="What happened today"
                     className="notes__textarea"
-                >
-                </textarea>
+                ></textarea>
 
                 <div className="notes__image">
                     <img
